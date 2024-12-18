@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.eduction {
+    margin-top: 110px;
+} 
+ 
+#main-eduction h1{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    font-size: 60px;
+    color: white;
+}
+
+#main-box {
+    /* border: 2px solid red; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    /* margin: 50px 0; */
+} 
+
+.same{
+    height: 320px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    margin: 40px 30px;
+    border-radius: 6%;
+    background-color:rgba(0, 0, 0, 0.742);
+    
+}
+
+.same h3{
+    font-size: 30px;
+    color: white;
+    margin: 30px 0;
+    font-weight: 400;
+}
+
+.same p{
+    font-size: 25px;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.same span {
+    font-size: 30px;
+    font-weight: 300;
+    color: crimson;
+    text-align: center;
+    /* align-items: center; */
+    margin-top: 50px;
+    padding: 20px 20px 20px 20px;
+
+}
+
+

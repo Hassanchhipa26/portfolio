@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.contact-form{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.contact-form h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    color: #fff;
+}
+.contact-form h2 span{
+    color: crimson;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.contact-form form{
+    max-width: 500px;
+    margin: 10px auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact-form form .input-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact-form form .input-box input,
+.contact-form form textarea{
+
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    color: #000;
+    background: rgb(241, 241, 241);
+    border-radius: 8px;
+    margin: 10px 0;
+    resize: none;
+}
+
+.btn-1{
+  padding: 15px 20px;
+  background-color: #000;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.btn-1:hover{
+    background-color: #fff;
+    color: #000;
+    
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.contact-icons a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid crimson;
+    font-size: 25px;
+    border-radius: 50%;
+    color: crimson;
+    margin: 10px 10px 25px 0;
+
+}
+
+
+.contact-icons a:hover {
+    color: #fff;
+    line-height: 6%;
+    box-shadow: 0 0 25px crimson;
+    background-color: crimson;
+
+}
+hr{
+    color: white;
+}
+#footer{
+    margin: 20px 0 12px 0;
+    text-align: center;
+    color: #fff;
+}
+h1 span{
+    color: #dc143c;
+    text-shadow: 0 0 50px #dc143c;
+}
+h6{
+    font-size: 25px;
+    font-weight: 400;
+    color: #fff;
+}
+p{
+    font-size: 20px;
+    text-align: center;
+    color: #faf6f6cf;
+}
